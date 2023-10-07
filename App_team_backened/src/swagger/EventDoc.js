@@ -69,7 +69,7 @@
  * @swagger
  * /users/exist/{email}:
  *  get:
- *      tags: ['Users']
+ *      tags: ['Users2']
  *      summary: checks if user with given user exists or not
  *      parameters:
  *          - in: path
