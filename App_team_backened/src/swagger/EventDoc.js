@@ -91,4 +91,30 @@
 */
 
 
+/**
+ * @swagger
+ * /users/{emailId}:
+ *  get:
+ *      tags: ['Users2']
+ *      summary: Returns the user with given firebaseId
+ *      parameters:
+ *          - in: path
+ *            name: emailId
+ *            schema:
+ *              type: string
+ *              required: true
+ *      responses:
+ *          '200':    
+ *              description: A single user
+ *              content: 
+ *                  application/json:
+ *                      schema:
+ *                          type: object
+ *                          items:
+ *                              $ref: '#/components/schemas/User' 
+ *          '404':
+ *              description: user does not exist
+*/
+
+
  
